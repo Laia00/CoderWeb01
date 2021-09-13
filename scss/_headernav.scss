@@ -1,0 +1,36 @@
+@import "./variables";
+
+/* -------------------------------------------------- NAV + LOGO SUPERIOR  */
+.bordeSuperior {
+    background-color: $primary-color;
+    min-height: 10px;
+    width: 100%;
+    position: fixed;
+}
+
+.imgLogoHeader {
+    height: 187px;
+    margin-top: 10px;
+    margin-left: 10%;
+    padding: 15px;
+    float: left;
+}
+
+header {
+    height: 195px;
+}
+
+nav {
+    height: 195px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.nav-item-active {
+    font-weight: bolder;
+}
+
+ul {
+    padding-right: 50px;
+    padding-top: 130px;
+}

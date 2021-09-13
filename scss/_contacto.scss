@@ -1,0 +1,49 @@
+@import "./variables";
+
+
+/* -------------------------------------------------- CONTACTO */
+
+#carouselExampleIndicators {
+    width: 70%;
+    height: 600px;
+    margin-left: 15%;
+    padding: 5px;
+}
+
+.gridContacto {
+    padding-top: 2px;
+    display: grid;
+    width: 99%;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+    grid-template-rows: 150px 570px 600px;
+    grid-row-gap: 10px;
+    grid-template-areas:
+        "descripcionSecciones descripcionSecciones"
+        "carouselExampleIndicators carouselExampleIndicators"
+        "formularioContacto mapaContacto"
+}
+
+#descripcionSecciones {
+    grid-area: descripcionSecciones;
+}
+
+#carouselExampleIndicators {
+    grid-area: carouselExampleIndicators;
+}
+
+#formularioContacto {
+    margin-left: 10px;
+    grid-area: formularioContacto;
+    background-color: $primary-color;
+}
+
+#mapaContacto {
+    grid-area: mapaContacto;
+    justify-content: center;
+}
+
+.formConsulta {
+    margin: 10px;
+    padding: 5px;
+}
